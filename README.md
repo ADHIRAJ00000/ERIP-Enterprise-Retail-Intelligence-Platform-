@@ -316,3 +316,14 @@ points, and interview preparation.
 ---
 
 <p align="center"><sub>Built as a portfolio-grade demonstration of the end-to-end data-analytics workflow.</sub></p>
+
+##To start it 
+cd ~/Downloads
+unzip ERIP-Enterprise-Retail-Intelligence-Platform.zip
+cd ERIP
+python3 -m venv .venv && source .venv/bin/activate   # recreate the venv
+pip install -r requirements.txt                       # ~30s
+# then anything works:
+python scripts/run_analytics.py      # or train_churn_model.py
+open reports/dashboard.html          # dashboard works instantly (self-contained)
+
