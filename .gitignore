@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+.ipynb_checkpoints/
+
+# Logs
+logs/
+*.log
+
+# Editor / OS / tooling
+.env
+.DS_Store
+.claude/
+.vscode/
+.idea/
+
+# Generated data (regenerate via scripts/generate_data.py — keeps repo lightweight)
+data/raw/*.csv.gz
+data/sample/*.csv.gz
+data/processed/*.csv.gz
+data/processed/*.parquet
+!**/.gitkeep
+
+# Trained model binaries (regenerate via scripts/train_churn_model.py)
+models/trained/*.pkl
+models/trained/*.joblib

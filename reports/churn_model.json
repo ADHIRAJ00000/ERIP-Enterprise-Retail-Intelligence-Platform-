@@ -1,0 +1,381 @@
+{
+  "model_name": "Gradient Boosting",
+  "leaderboard": {
+    "Logistic Regression": 0.7943,
+    "Gradient Boosting": 0.8057
+  },
+  "metrics": {
+    "roc_auc": 0.8124,
+    "pr_auc": 0.759,
+    "precision": 0.7001,
+    "recall": 0.7147,
+    "f1": 0.7073,
+    "baseline_churn_rate": 0.4513,
+    "confusion_matrix": {
+      "tn": 2915,
+      "fp": 981,
+      "fn": 914,
+      "tp": 2290
+    }
+  },
+  "roc_curve": [
+    {
+      "fpr": 0.0,
+      "tpr": 0.0
+    },
+    {
+      "fpr": 0.0056,
+      "tpr": 0.054
+    },
+    {
+      "fpr": 0.011,
+      "tpr": 0.1017
+    },
+    {
+      "fpr": 0.0164,
+      "tpr": 0.1323
+    },
+    {
+      "fpr": 0.0231,
+      "tpr": 0.1785
+    },
+    {
+      "fpr": 0.0293,
+      "tpr": 0.2104
+    },
+    {
+      "fpr": 0.0354,
+      "tpr": 0.2381
+    },
+    {
+      "fpr": 0.0418,
+      "tpr": 0.2606
+    },
+    {
+      "fpr": 0.049,
+      "tpr": 0.2881
+    },
+    {
+      "fpr": 0.0554,
+      "tpr": 0.3096
+    },
+    {
+      "fpr": 0.0616,
+      "tpr": 0.3405
+    },
+    {
+      "fpr": 0.0678,
+      "tpr": 0.3649
+    },
+    {
+      "fpr": 0.0739,
+      "tpr": 0.3848
+    },
+    {
+      "fpr": 0.0834,
+      "tpr": 0.4076
+    },
+    {
+      "fpr": 0.0916,
+      "tpr": 0.4248
+    },
+    {
+      "fpr": 0.0991,
+      "tpr": 0.4444
+    },
+    {
+      "fpr": 0.1052,
+      "tpr": 0.4635
+    },
+    {
+      "fpr": 0.1132,
+      "tpr": 0.4778
+    },
+    {
+      "fpr": 0.1201,
+      "tpr": 0.4997
+    },
+    {
+      "fpr": 0.1309,
+      "tpr": 0.5109
+    },
+    {
+      "fpr": 0.1389,
+      "tpr": 0.5309
+    },
+    {
+      "fpr": 0.1489,
+      "tpr": 0.5468
+    },
+    {
+      "fpr": 0.1558,
+      "tpr": 0.5684
+    },
+    {
+      "fpr": 0.165,
+      "tpr": 0.5805
+    },
+    {
+      "fpr": 0.1735,
+      "tpr": 0.5949
+    },
+    {
+      "fpr": 0.1817,
+      "tpr": 0.6077
+    },
+    {
+      "fpr": 0.1899,
+      "tpr": 0.6239
+    },
+    {
+      "fpr": 0.1989,
+      "tpr": 0.6376
+    },
+    {
+      "fpr": 0.211,
+      "tpr": 0.6517
+    },
+    {
+      "fpr": 0.2218,
+      "tpr": 0.6667
+    },
+    {
+      "fpr": 0.2315,
+      "tpr": 0.6829
+    },
+    {
+      "fpr": 0.2408,
+      "tpr": 0.6954
+    },
+    {
+      "fpr": 0.2518,
+      "tpr": 0.7147
+    },
+    {
+      "fpr": 0.2659,
+      "tpr": 0.7257
+    },
+    {
+      "fpr": 0.2759,
+      "tpr": 0.7356
+    },
+    {
+      "fpr": 0.289,
+      "tpr": 0.7481
+    },
+    {
+      "fpr": 0.2977,
+      "tpr": 0.7669
+    },
+    {
+      "fpr": 0.3103,
+      "tpr": 0.7797
+    },
+    {
+      "fpr": 0.3249,
+      "tpr": 0.7956
+    },
+    {
+      "fpr": 0.338,
+      "tpr": 0.8081
+    },
+    {
+      "fpr": 0.3537,
+      "tpr": 0.8215
+    },
+    {
+      "fpr": 0.3681,
+      "tpr": 0.8321
+    },
+    {
+      "fpr": 0.3786,
+      "tpr": 0.8421
+    },
+    {
+      "fpr": 0.3932,
+      "tpr": 0.8549
+    },
+    {
+      "fpr": 0.4066,
+      "tpr": 0.8667
+    },
+    {
+      "fpr": 0.4256,
+      "tpr": 0.8761
+    },
+    {
+      "fpr": 0.4476,
+      "tpr": 0.8848
+    },
+    {
+      "fpr": 0.4633,
+      "tpr": 0.8948
+    },
+    {
+      "fpr": 0.4784,
+      "tpr": 0.9057
+    },
+    {
+      "fpr": 0.4931,
+      "tpr": 0.9139
+    },
+    {
+      "fpr": 0.5157,
+      "tpr": 0.9232
+    },
+    {
+      "fpr": 0.5375,
+      "tpr": 0.9316
+    },
+    {
+      "fpr": 0.5516,
+      "tpr": 0.9398
+    },
+    {
+      "fpr": 0.5708,
+      "tpr": 0.9469
+    },
+    {
+      "fpr": 0.6029,
+      "tpr": 0.9554
+    },
+    {
+      "fpr": 0.6289,
+      "tpr": 0.9625
+    },
+    {
+      "fpr": 0.6597,
+      "tpr": 0.971
+    },
+    {
+      "fpr": 0.6982,
+      "tpr": 0.9772
+    },
+    {
+      "fpr": 0.7541,
+      "tpr": 0.9844
+    },
+    {
+      "fpr": 0.7972,
+      "tpr": 0.9919
+    },
+    {
+      "fpr": 0.8881,
+      "tpr": 0.9988
+    }
+  ],
+  "decile_lift": [
+    {
+      "decile": 1,
+      "churn_rate": 0.8606,
+      "lift": 1.91
+    },
+    {
+      "decile": 2,
+      "churn_rate": 0.7746,
+      "lift": 1.72
+    },
+    {
+      "decile": 3,
+      "churn_rate": 0.6577,
+      "lift": 1.46
+    },
+    {
+      "decile": 4,
+      "churn_rate": 0.6056,
+      "lift": 1.34
+    },
+    {
+      "decile": 5,
+      "churn_rate": 0.5028,
+      "lift": 1.11
+    },
+    {
+      "decile": 6,
+      "churn_rate": 0.4535,
+      "lift": 1.0
+    },
+    {
+      "decile": 7,
+      "churn_rate": 0.3127,
+      "lift": 0.69
+    },
+    {
+      "decile": 8,
+      "churn_rate": 0.2127,
+      "lift": 0.47
+    },
+    {
+      "decile": 9,
+      "churn_rate": 0.1099,
+      "lift": 0.24
+    },
+    {
+      "decile": 10,
+      "churn_rate": 0.0225,
+      "lift": 0.05
+    }
+  ],
+  "feature_importance": [
+    {
+      "feature": "recency_days",
+      "importance": 0.2494
+    },
+    {
+      "feature": "frequency",
+      "importance": 0.0712
+    },
+    {
+      "feature": "tenure_days",
+      "importance": 0.0218
+    },
+    {
+      "feature": "monetary",
+      "importance": 0.0017
+    },
+    {
+      "feature": "country",
+      "importance": 0.0009
+    },
+    {
+      "feature": "customer_segment",
+      "importance": 0.0005
+    },
+    {
+      "feature": "distinct_categories",
+      "importance": 0.0004
+    },
+    {
+      "feature": "acquisition_channel",
+      "importance": 0.0004
+    },
+    {
+      "feature": "n_returns",
+      "importance": 0.0
+    },
+    {
+      "feature": "is_loyalty_member",
+      "importance": -0.0001
+    },
+    {
+      "feature": "age",
+      "importance": -0.0003
+    },
+    {
+      "feature": "avg_order_value",
+      "importance": -0.0004
+    }
+  ],
+  "n_train": 21297,
+  "n_test": 7100,
+  "observation_date": "2025-06-30",
+  "horizon_days": 183,
+  "n_customers_scored": 28397,
+  "risk_tiers": {
+    "Critical": 2628,
+    "High": 7339,
+    "Medium": 8981,
+    "Low": 9449
+  },
+  "revenue_at_risk": 31568581.38
+}

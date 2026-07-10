@@ -1,0 +1,21 @@
+# --- Core data stack (data generation + analytics engine) ---
+pandas>=2.0
+numpy>=1.24
+
+# --- Database (optional: load the star schema into PostgreSQL) ---
+sqlalchemy>=2.0
+psycopg2-binary>=2.9
+python-dotenv>=1.0
+
+# --- Machine learning (churn model) ---
+scikit-learn>=1.3
+joblib>=1.3
+
+# --- Testing ---
+pytest>=7.4
+
+# --- Optional: Parquet output for processed features (faster columnar I/O) ---
+# pyarrow>=14.0
+
+# --- Planned future phases (API layer) ---
+# fastapi, uvicorn                 (metrics API)
