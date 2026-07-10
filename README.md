@@ -317,7 +317,7 @@ points, and interview preparation.
 
 <p align="center"><sub>Built as a portfolio-grade demonstration of the end-to-end data-analytics workflow.</sub></p>
 
-##To start it 
+# To start it 
 cd ~/Downloads
 unzip ERIP-Enterprise-Retail-Intelligence-Platform.zip
 cd ERIP
